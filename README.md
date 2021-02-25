@@ -11,4 +11,4 @@ Fungsi yang berada pada activity dapat langsung digunakan dalam fragment tersebu
 Contoh: pada saat back, fragment hanya perlu memanggil fungsi “getactivity</h6>
 
 <h2>Lifecycle Fragment</h2>
-<img src="1.jpg" height="600px" width="300px">
+<img src="fragment lifecycle.jpg" height="700px" width="300px">
