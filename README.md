@@ -25,3 +25,7 @@ Contoh: pada saat back, fragment hanya perlu memanggil fungsi “getactivity</h5
 <h5>•	onDestroyView() dipanggil saat layout sebuah fragment akan dihapus dari memori, namun fragmentnya masih ada di memori.</h5> 
 <h5>•	onDestroy() adalah kondisi saat Activity dihancurkan pada memori.</h5>  
 <h5>•	onDetach() dipanggil saat fragment tidak lagi terhubung ke sebuah activity.</h5> 
+
+<h2>Screenshot Aplikasi Fragment</h2>
+<img src="1.jpg" height="600px" width="300px">
+<img src="2.jpg" height="600px" width="300px">
