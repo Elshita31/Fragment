@@ -12,12 +12,16 @@ Contoh: pada saat back, fragment hanya perlu memanggil fungsi “getactivity</h5
 
 <h2>Lifecycle Fragment</h2>
 <img src="fragment lifecycle.jpg" height="700px" width="300px">
-<h5>Keterangan</h5>
+<h4>Keterangan</h4>
 
+<h5>• onAttach() dipanggil saat sebuah fragment terhubung ke activity.	</h5>  
 <h5>•	onCreate() adalah kondisi awal saat Activity baru diciptakan, biasanya dilakukan inisialisasi pada tahapan ini.</h5>  
+<h5>•	onCreateView() dipanggil saat fragment sudah siap membaca sebuah layout.</h5> 
+<h5>•	onViewCreated() dipanggil setelah onCreateView() dan memastikan layout yang dibaca fragment adalah non-null. Semua pengaturan view seperti pembacaan findViewById, menambah onClickListener dapat dilakukan di sini</h5> 
+<h5>•	onActivityCreated() dipanggil setelah activity pembaca sudah menyelesaikan onCreate()-nya.</h5> 
 <h5>•	onStart() adalah saat Activity dimulai.</h5>  
 <h5>•	onResume() adalah saat Activity dibuka kembali, biasanya dieksekusi setelah onPause().</h5>  
 <h5>•	onPause() akan dipanggil saat ada Activity lain yang terbuka.</h5>  
-<h5>•	onStop() adalah kondisi saat Activity tidak ditampilkan dilayar (biasanya saat pengguna menekan tombol Home).</h5>  
-<h5>•	onRestart() adalah kondisi saat Activity kembali dibuka oleh pengguna.</h5>  
+<h5>•	onDestroyView() dipanggil saat layout sebuah fragment akan dihapus dari memori, namun fragmentnya masih ada di memori.</h5> 
 <h5>•	onDestroy() adalah kondisi saat Activity dihancurkan pada memori.</h5>  
+<h5>•	onDetach() dipanggil saat fragment tidak lagi terhubung ke sebuah activity.</h5> 
